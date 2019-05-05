@@ -7,11 +7,11 @@ assignees: blockdate
 
 ---
 **注意事项：（阅读后，创建issue时此段可删除）**
-- 1. Issue提交及后续处理流程中，均需指定assignee，自己处理完毕后需要其他人继续跟进的，请及时更改assignee
-- 2. 每个issue需要指定待修复的SDK版本，通过milestone指定
-- 3. 请issue处理人指定issue的优先级
--        高优先级：如新产品接入相关，有严格的排期
--        低优先级：如新插件框架迁移
+- Issue提交及后续处理流程中，均需指定assignee，自己处理完毕后需要其他人继续跟进的，请及时更改assignee
+- 每个issue需要指定待修复的SDK版本，通过milestone指定
+- 请issue处理人指定issue的优先级
+        高优先级：如新产品接入相关，有严格的排期
+        低优先级：如新插件框架迁移
 
 **请自查：（不用回答，创建issue时此段可删除）**
 - IPA/APK 是否更新到最新？
