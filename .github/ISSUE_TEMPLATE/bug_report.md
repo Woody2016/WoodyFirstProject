@@ -1,38 +1,52 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 📝Issue 模版
+about: 如有问题，请按照此模版提issue，否则您的issue处理优先级将会被降低，谢谢配合
 title: ''
-labels: ''
-assignees: ''
-
+assignees: blockdate
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**注意事项：（阅读后，创建issue时此段可删除）**
+- 1. Issue提交及后续处理流程中，均需指定assignee，自己处理完毕后需要其他人继续跟进的，请及时更改assignee
+- 2. 每个issue需要指定待修复的SDK版本，通过milestone指定
+- 3. 请issue处理人指定issue的优先级
+-        高优先级：如新产品接入相关，有严格的排期
+-        低优先级：如新插件框架迁移
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**请自查：（不用回答，创建issue时此段可删除）**
+### IPA/APK 是否更新到最新？
+### SDK 是否更新到最新？
+### Check 文档了吗？
+### 是否尝试搜索issue？
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+---
+#### 公司名称（必填）
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+贵司的简称
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+#### 项目名称（必填）
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+此issue关联的项目名称或项目ID，如您不清楚，请咨询贵司的项目经理
 
-**Additional context**
-Add any other context about the problem here.
+#### 环境（必填）
+- 电脑操作系统:[eg.Windows/Mac OS/Linux]
+- 手机系统:[eg.Android 8.1/iOS 11.0]
+- SDK分支: [eg.master/10000/...]
+- 相关模块:[eg.Host/Service/Account]
+
+#### 现象（必填）
+
+简单明了地描述一下实际的现象。
+
+#### 期望（必填）
+
+简单明了地描述一下期望的表现。
+
+#### 其他的上下文/日志/截图
+
+提供更多的上下文，有日志或者截图更好。
+
+#### 尝试过的解决办法
+
+尝试过哪些操作？
+
+### 不要贴大段代码❗️
